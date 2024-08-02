@@ -296,8 +296,7 @@ Callback = <function> - The function of the button.
 TestTab:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
-	Callback = function(Value)
-		print(getgenv().config = getgenv().config or {
+	Callback = function(getgenv().config = getgenv().config or {
     hit_time = 0.5, -- // recommended 0.25 to 0.75 \ --
  
     mode = 'Always', -- // Hold , Toggle , Always \ --
